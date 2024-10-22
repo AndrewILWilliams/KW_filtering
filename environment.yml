@@ -1,16 +1,11 @@
 name: KW_filtering
 channels:
-  - defaults
+  - conda-forge
 dependencies:
-  - python=3.10
-  - matplotlib
+  - python
   - numpy
-  - xeofs
-  - dask
-  - xarray=v2024.09.0
+  - pip
+  - matplotlib
+  - xarray
   - cartopy
-  - scipy
-  - netcdf4
-  - ipykernel
-  - scikit-image
-prefix: /opt/anaconda3/envs/KW_filtering
+  - dask
